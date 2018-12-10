@@ -7,6 +7,7 @@
 //
 
 #import "WJViewController.h"
+#import <WJTest/Person.h>
 
 @interface WJViewController ()
 
@@ -18,6 +19,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    Person *person = [[Person alloc] init];
+    
+    [person personLog];
 }
 
 - (void)didReceiveMemoryWarning

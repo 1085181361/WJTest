@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WJTest_Example' do
+  pod 'WJTest', :path => '../'
+
+  target 'WJTest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
